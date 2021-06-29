@@ -1,0 +1,14 @@
+salam proyek teman teman ku
+
+
+1.saya udah buat template header dan footer kita
+
+2. untuk background mohon buat sendiri yah
+
+3. untuk css,js, boostrap mohon sesuaikan saja dengan template yang saya buat dan untuk css, js , dan boostrap 
+yang digunakan kalo bisa yang  digunakan yang saya kirim aja biar sama nanti semua, tetapi tidak menutup kemungkinan
+untuk menambahi jika perlu.
+
+4. untuk gambar, musik da video cari sendiri yah
+
+5. untuk pemanggilan gambar, musik, dan video sesuaikan dengan yah biar sama nanti semua oke !!!

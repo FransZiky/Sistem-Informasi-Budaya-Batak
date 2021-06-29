@@ -1,0 +1,281 @@
+/*Untuk Header*/
+
+/*1. header*/
+body{
+	/*background: url("../img/c1.jpg");*/
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+.head h2{	
+	text-transform: uppercase;
+	font-family: premier;
+	font-size: 350%;
+	font-weight: 100%;
+	font-style: inherit;
+	color: #ff6600;
+}
+@font-face{
+	font-family: "lalipo";
+	src: url("../font/comic_0.TTF");
+}
+@font-face{
+	font-family: "premier";
+	src: url("../font/PremierLeague with LionNumbers.TTF");
+}
+.header{
+	text-align: center;
+}
+nav{
+	padding: 15px;
+	font-weight: bold;
+}
+.navbar{
+	background-image: url(../img/gorga1.jpg);
+	
+
+}
+nav .navbar-toggle{
+	background-color: rgb(51,51,51);
+	background-color: white;
+}
+
+.icon-bar{
+	background-color: black;
+}
+div .search{
+	margin-top: 5px;
+	float: right;
+}
+.search input{
+	padding-left: 10px;
+	font-family: lalipo;
+	border-radius: 4px;
+	width: 300px;
+	height: 35px;
+	border: 1px solid #ccc;
+	display: inline-block;
+}
+.navbar-nav{
+	color: white;
+	font-family: premier;
+	background-color: #ccc;
+	font-size: 1,5em;
+	border-radius: 4px;
+}
+.search button{
+	background-color: white;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	padding: 6px;
+	width: 40px;
+}
+
+h3, h4, h6{
+	color: #ff6600;
+}
+.capt{
+	text-align: center;
+	
+}
+.dropdown-menu>li>a{
+	font-weight: bolder;
+
+}
+
+.dropdown-menu>li>a:hover{
+	background-color: #ff6600;
+	
+}
+
+/*Untuk Badan*/
+/*Tuliskan CSS Badan di Dini Teman kelompok ku*/
+
+.col-md-2{
+	margin-left: 20px;
+}
+.container>p{
+	padding-top: 100px;
+}
+.thumbnail{
+	text-align: center;
+}
+
+.tab-pane>h3{
+	color: black;
+	font-weight: bolder;
+}
+
+.tab-pane>img:hover{
+	-ms-transform: scale(1.5);
+	-webkit-transform:scale(1.5);
+	transform: scale(1.5);
+}
+#gambar_dalihan{
+	width: 400px;
+	height: auto;
+	padding-right: 10px;
+}
+
+#gambar>img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.list-group-item>img:hover{
+	-ms-transform: scale(1.5);
+	-webkit-transform:scale(1.5);
+	transform: scale(1.5);
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.list-group-item>img{
+	width: 100px;
+	height: auto;
+}
+
+
+.collapsible {
+    background-color:  #262626;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.nav-link, .collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+/*rating Star*/
+.heading {
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+.glyphicon-star {
+    font-size: 25px;
+}
+
+.checked {
+    color: orange;
+}
+
+
+/*load*/
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+/*Untuk Footer*/
+
+footer{
+	padding-top: 20px;
+	/*background-color: #990000;*/
+}
+#footer{
+	background-color: #1a1a1a;
+	color: white;
+
+}
+
+#MyLogo:hover{
+	-ms-transform: scale(1.5);
+	-webkit-transform:scale(1.5);
+	transform: scale(1.5);
+}
+
+.well{
+	background-color: #ff8533;
+	height: 20px;
+	color: black;
+}
+
+.well>h4{
+
+}
+
+#link{
+	color: black;
+}
+
+.sosial>a>img{
+	max-width: 50px;
+	height: auto;
+}
+
+.sosial>p{
+	color:white;
+}
+
+.sosial>a>img:hover{
+	-ms-transform: scale(1.5);
+	-webkit-transform:scale(1.5);
+	transform: scale(1.5);
+}
+
+
+/*tombol menuju header*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+
+  font-size: 10px;
+  border: none;
+  outline: none;
+  background-color: green;
+  color: white;
+  
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: blue;
+}
+

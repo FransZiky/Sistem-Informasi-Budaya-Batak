@@ -1,0 +1,200 @@
+/*Untuk Header*/
+
+/*1. header*/
+body{
+	background: url("../img/c3.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+.head h2{	
+	text-transform: uppercase;
+	font-family: premier;
+	font-size: 350%;
+	font-weight: 100%;
+	font-style: inherit;
+	color: #ff6600;
+	
+}
+@font-face{
+	font-family: "lalipo";
+	src: url("../font/comic_0.TTF");
+}
+@font-face{
+	font-family: "premier";
+	src: url("../font/PremierLeague with LionNumbers.TTF");
+}
+.header{
+	text-align: center;
+}
+nav{
+	padding: 15px;
+	font-weight: bold;
+}
+.navbar{
+	background-image: url(../img/gorga1.jpg);
+	
+
+}
+nav .navbar-toggle{
+	background-color: rgb(51,51,51);
+	background-color: white;
+}
+
+.icon-bar{
+	background-color: black;
+}
+div .search{
+	margin-top: 5px;
+	float: right;
+}
+.search input{
+	padding-left: 10px;
+	font-family: lalipo;
+	border-radius: 4px;
+	width: 300px;
+	height: 35px;
+	border: 1px solid #ccc;
+	display: inline-block;
+}
+.navbar-nav{
+	color: white;
+	font-family: premier;
+	background-color: #ccc;
+	font-size: 1,5em;
+	border-radius: 4px;
+}
+.search button{
+	background-color: white;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	padding: 6px;
+	width: 40px;
+}
+
+h3, h4, h6{
+	color: #ff6600;
+}
+.capt{
+	text-align: center;
+	
+}
+
+
+/*Untuk Badan*/
+/*Tuliskan CSS Badan di Dini Teman kelompok ku*/
+
+.container-fluid{
+	/*background-color:#000066;*/
+	color: white;
+	padding: 100px 0 60px 0;
+	background: #1f386e;
+	/*color: rgba(255,255,255,.65);*/
+}
+
+.form-control{
+	background-color: white;
+
+}
+
+
+.contact>div>h3{
+	color: white;
+}
+
+.form-control:hover{
+	border-color: red;
+}
+
+#kirim{
+	background-color: #1f386e;
+	border-color: white;
+	color: white;
+	font-weight: bolder;
+}
+
+#kirim:hover{
+	background-color: green;
+	border-color: orange;
+}
+
+#info-contact>h3{
+	color: black;
+}
+
+#info-contact>h5,p,a{
+	color: #595959;
+}
+#info-contact>hr{
+	height: 2px;
+	background-color: black;
+}
+
+#info-contact>a>img{
+	width: 40px;
+	height: auto;
+
+}
+
+#info-contact>a>img:hover{
+	-ms-transform: scale(1.5);
+	-webkit-transform:scale(1.5);
+	transform: scale(1.5);
+	
+}
+
+#info-contact>a{
+	display: inline-block;
+	text-align: center;
+}
+
+
+/*Untuk Footer*/
+
+footer{
+	padding-top: 20px;
+	/*background-color: #990000;*/
+}
+#footer{
+	background-color: #1a1a1a;
+	color: white;
+
+}
+
+#MyLogo:hover{
+	-ms-transform: scale(1.5);
+	-webkit-transform:scale(1.5);
+	transform: scale(1.5);
+}
+
+.well{
+	background-color: #ff8533;
+	height: 20px;
+	color: black;
+}
+
+.well>h4{
+
+}
+
+#link{
+	color: black;
+}
+
+.sosial>a>img{
+	max-width: 50px;
+	height: auto;
+}
+
+.sosial>p{
+	color:white;
+}
+
+.sosial>a>img:hover{
+	-ms-transform: scale(1.5);
+	-webkit-transform:scale(1.5);
+	transform: scale(1.5);
+}
+
+

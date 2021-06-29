@@ -1,0 +1,205 @@
+/*Untuk Header*/
+
+/*1. header*/
+body{
+	background: url("../img/c1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+.head h2{	
+	text-transform: uppercase;
+	font-family: premier;
+	font-size: 350%;
+	font-weight: 100%;
+	font-style: inherit;
+	color: #ff6600;
+	
+}
+@font-face{
+	font-family: "lalipo";
+	src: url("../font/comic_0.TTF");
+}
+@font-face{
+	font-family: "premier";
+	src: url("../font/PremierLeague with LionNumbers.TTF");
+}
+.header{
+	text-align: center;
+}
+nav{
+	padding: 15px;
+	font-weight: bold;
+}
+.navbar{
+	background-image: url(../img/gorga1.jpg);
+	
+
+}
+nav .navbar-toggle{
+	background-color: rgb(51,51,51);
+	background-color: white;
+}
+
+.icon-bar{
+	background-color: black;
+}
+div .search{
+	margin-top: 5px;
+	float: right;
+}
+.search input{
+	padding-left: 10px;
+	font-family: lalipo;
+	border-radius: 4px;
+	width: 300px;
+	height: 35px;
+	border: 1px solid #ccc;
+	display: inline-block;
+}
+.navbar-nav{
+	color: white;
+	font-family: premier;
+	background-color: #ccc;
+	font-size: 1,5em;
+	border-radius: 4px;
+}
+.search button{
+	background-color: white;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	padding: 6px;
+	width: 40px;
+}
+
+h3, h4, h6{
+	color: #ff6600;
+}
+.capt{
+	text-align: center;
+	
+}
+.dropdown-menu>li>a{
+	font-weight: bolder;
+
+}
+
+.dropdown-menu>li>a:hover{
+	background-color: #ff6600;
+	
+}
+
+/*Untuk Badan*/
+/*Tuliskan CSS Badan di Dini Teman kelompok ku*/
+
+#eror{
+	background-color: rgb(0, 0, 0,0.8);
+	color: white;
+}
+
+#eror>p{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 50px;
+}
+
+
+
+.breadcrumb{
+	background-color: rgb(0, 0, 0,0.8);
+	color: white; 
+}
+
+
+#eror404{
+	background-color: #ffffff;
+}
+
+#eror404>p{
+
+	padding-top: 60px;
+	font-size: 80px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+#eror404>h4{
+	color: #cccccc;
+	text-align: center;
+}
+
+.loader {
+  border: 16px solid ;
+  border-radius: 50%;
+  border-top: 16px solid #bfbfbf;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/*Untuk Footer*/
+
+footer{
+	padding-top: 0px;
+	/*background-color: #990000;*/
+}
+#footer{
+	background-color: #1a1a1a;
+	color: white;
+
+}
+
+#MyLogo:hover{
+	-ms-transform: scale(1.5);
+	-webkit-transform:scale(1.5);
+	transform: scale(1.5);
+}
+
+.well{
+	background-color: #ff8533;
+	height: 20px;
+	color: black;
+}
+
+.well>h4{
+
+}
+
+#link{
+	color: black;
+}
+
+.sosial>a>img{
+	max-width: 50px;
+	height: auto;
+}
+
+.sosial>p{
+	color:white;
+}
+
+.sosial>a>img:hover{
+	-ms-transform: scale(1.5);
+	-webkit-transform:scale(1.5);
+	transform: scale(1.5);
+}
+
+
+
+
